@@ -1,0 +1,12 @@
+{
+	"name": "HyperPath",
+	"version": "1.0",
+	"description": "Give Pathable Hyperlinks",
+	"content_scripts": [
+		{
+			"matches": ["*://wolframsummercamp2020.pathable.co/*"],
+			"js": ["contentscript.js"]
+		}
+	],
+	"manifest_version": 2
+}
